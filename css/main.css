@@ -50,6 +50,7 @@
     /*margin: 0 0 0 -40%;*/
     left:10%;
     text-align: center;
+    z-index: -99;
 }
 #leftcorner{
     position: absolute;
