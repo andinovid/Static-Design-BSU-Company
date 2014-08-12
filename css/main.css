@@ -40,7 +40,34 @@
 #home-carousel .carousel-right:hover{
   border-color: #FF7E00;
 }
+/* edited */
+#a{
+    width: 148px;
+    height: 148px;
+    position: fixed;
+    top:15%;
+    margin: 0 auto;
+    /*margin: 0 0 0 -40%;*/
+    left:10%;
+    text-align: center;
+}
+#leftcorner{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 74px;
+    height: 74px;
+    background: url('../img/leftcorner.png');
+}
 
+#rightcorner{
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 74px;
+    height: 74px;
+    background: url('../img/rightcorner.png');
+}
 .features-nav  .media i:after {
   border-color: rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #FF7E00;
 }
